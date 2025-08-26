@@ -1,0 +1,26 @@
+
+h1{
+    
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: auto;
+
+}
+.imagen{
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgh9ODxWNqiOuUZm5FixZ2wXlfxTaoNXzUYw&s);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+
+}
+.imagen2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR779Hd-bOa9scFqWHiSCGJaA08b21PcWQG1Q&s);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
