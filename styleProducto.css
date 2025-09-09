@@ -1,0 +1,158 @@
+@font-face {
+
+    font-family: Orbitron;
+  
+    src: url(fonts/orbitron-black.otf);
+  
+  }
+  
+  
+  
+  @font-face {
+  
+    font-family: Roboto;
+  
+    src: url(fonts/Roboto-Black.ttf);
+  
+  }
+  
+  
+  
+  main{background-color: black;
+  
+  color:aliceblue;
+  
+  font-family:'Times New Roman', Times, serif;}
+  
+  .main-header{color: rgb(255, 255, 255);
+  
+  ;}
+  
+  .main-header{
+  
+    font-family: Orbitron;
+  
+  }
+  
+  
+  
+  body{background-color: black;}
+  
+  .button-highlights{background-color: #1e90ff;}
+  
+  
+  
+  .hero-text{
+  
+    color: #D3D3D3;
+  
+  
+  
+  }
+  
+  .product-list {
+  
+    display: grid;
+  
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+  
+    gap: 20px; /* espacio entre elementos */
+  
+    list-style: none; /* quitar puntos si es <ul> */
+  
+    padding: 0;
+  
+   }
+
+   h1 {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    gap: 10px; /* espacio entre logo y texto */
+  }
+  
+  h1 .logo {
+    width: 125px;  /* ajusta el tamaño según tu logo */
+    height: auto;
+  }
+
+  .product-card {
+    position: relative;
+    top: 400px;
+    padding: 20px;
+    background: black; /* para que contraste con las imágenes */
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 0;
+    margin: 10px;
+  }
+  .product-card1{
+    position: absolute;
+    padding: 20px;
+    background: #24272b;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+  }
+  
+  /* Borde RGB animado */
+  .product-card::before {
+    content: "";
+    position: absolute;
+    top: -3px; bottom: -3px;
+    left: -3px; right: -3px;
+    border-radius: 12px;
+    background: linear-gradient(270deg,
+      red, orange, yellow, green, blue, indigo, violet, red);
+    background-size: 1400% 1400%;
+    animation: rgb-border 10s linear infinite;
+    z-index: -1;
+
+  }
+  
+  /* Fondo blanco para interior */
+  .product-card::after {
+    content: "";
+    position: absolute;
+    top: 3px; bottom: 3px;
+    left: 3px; right: 3px;
+    background: black; /* igual que el fondo del producto */
+    border-radius: 7px;
+    z-index: -1;
+  }
+  
+  @keyframes rgb-border {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  .product-img{
+    padding: auto;
+    display: block;
+    height: 40%;
+    width: 50%;
+  }
+  .product-img1{
+    padding: 0;
+    display: block;
+    height: 40%;
+    width: 50%;
+
+  }
+  .aside-main{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    
+  }
+
+  .product-grid{
+    padding: 1px;
+    margin: 1px;
+  }
+
+
+  

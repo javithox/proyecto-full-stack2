@@ -118,5 +118,11 @@
       background-position: 100% 50%;
     }
   }
+  .product-img{
+    padding: auto;
+    display: block;
+    height: 60%;
+    width: 60%;
+  }
 
   
