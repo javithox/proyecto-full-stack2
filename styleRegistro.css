@@ -5,7 +5,7 @@
 .main-container{
     
     background-color: #0c0c0c;
-    display: block;
+    display: flex;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -24,7 +24,7 @@ h1{
 }
 .cuerpo-inicio{
 
-    display: block;
+    display: flex;
     position: absolute;
     margin-left: 0;
     bottom: 80px;
@@ -77,11 +77,31 @@ body{
     
 }
 .contenedor-iniciar{
-    display: block;
+    display: flexbox;
     position: relative;
     margin: 1px;
     padding: 1px;
     box-sizing: border-box;
     top: 300px;
     
+    
 }
+.btn-btn-primary{
+    background-color: #39FF14;
+    padding: 2.5px;
+    margin: 2.5px;
+}
+.titulo-pagina{
+    color: #39FF14;
+    
+}
+.logo{
+    display: flex;
+    padding: 1.5px;
+    margin: 1.5px;
+    position: absolute;
+    left: 46.5%;
+    top: -170px;
+    border-radius: 50%;
+}
+
