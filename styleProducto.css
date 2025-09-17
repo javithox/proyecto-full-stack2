@@ -52,7 +52,7 @@
   
   .product-list {
   
-    display: grid;
+    display: flex;
   
     grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
   
@@ -87,6 +87,7 @@
     margin: 10px;
   }
   .product-card1{
+    
     position: absolute;
     padding: 20px;
     background: #24272b;
@@ -150,9 +151,32 @@
   }
 
   .product-grid{
+    display: contents;
     padding: 1px;
     margin: 1px;
   }
 
+  .aside-main .product-list2{
+    display: contents;
+    padding: 1px;
+    margin: 1px;
+    font-size: smaller;
+  }
 
+  .btn-nav{
+    margin: 1px;
+    padding: 1px;
+    border: none solid;
+    text-decoration: none;
+    color: #39FF14;
+    text-shadow: #1e90ff;
+    
+  }
+  .btn-nav2{
+    color: #39FF14;
+    margin: 1px;
+    padding: 1px;
+    text-decoration: none solid;
+    font-size: large;
+  }
   
