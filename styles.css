@@ -22,7 +22,16 @@
   
   color:aliceblue;
   
-  font-family:'Times New Roman', Times, serif;}
+  font-family:'Times New Roman', Times, serif;
+  flex: 1;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin:0 auto;
+}
   
   .main-header{color: rgb(255, 255, 255);
   
@@ -30,13 +39,26 @@
   
   .main-header{
   
-    font-family: Orbitron;
+    font-family: Orbitron ,sans-serif;
+    background-color: black;
+    border-bottom: 1px solid #1e90ff;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
   
   }
   
   
   
-  body{background-color: black;}
+  body{background-color: black;
+  color: aliceblue;
+  font-family: Roboto, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  }
   
   .button-highlights{background-color: #1e90ff;}
   
@@ -66,13 +88,16 @@
    h1 {
     display: flex;
     align-items: center;
-    font-size: 2em;
-    gap: 10px; /* espacio entre logo y texto */
+    font-size: 1.8em;
+    margin: 0;
+    color: #D3D3D3;
+    text-shadow: 0 0 5px #39ff14;
   }
   
-  h1 .logo {
+  h1{
     width: 125px;  /* ajusta el tamaño según tu logo */
     height: auto;
+
   }
 
   .product-card {
@@ -124,5 +149,17 @@
     height: 60%;
     width: 60%;
   }
+ .logo{
+  width: 90px;
+  height: 90px;
+  margin-right: 0.5rem;
+  border-radius: 45%;
+ }
+.main-nav a{
+  color: #39ff14;
+  text-decoration: none;
+  transition: color 0.4s ease;
+  
+}
 
   
